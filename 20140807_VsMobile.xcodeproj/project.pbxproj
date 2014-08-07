@@ -57,7 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84B1BFFA19934B0500E23A84 /* 20140807 VsMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20140807 VsMobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1BFFA19934B0500E23A84 /* 20140807_VsMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20140807_VsMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B1BFFD19934B0500E23A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84B1BFFF19934B0500E23A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		84B1C00119934B0500E23A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		84B1C00919934B0500E23A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B1C00B19934B0500E23A84 /* 20140807 VsMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20140807 VsMobile-Prefix.pch"; sourceTree = "<group>"; };
 		84B1C00F19934B0500E23A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84B1C01519934B0600E23A84 /* 20140807 VsMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20140807 VsMobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1C01519934B0600E23A84 /* 20140807_VsMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20140807_VsMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B1C01619934B0600E23A84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84B1C01E19934B0600E23A84 /* 20140807 VsMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "20140807 VsMobileTests-Info.plist"; sourceTree = "<group>"; };
 		84B1C02019934B0600E23A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -158,8 +158,8 @@
 		84B1BFFB19934B0500E23A84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84B1BFFA19934B0500E23A84 /* 20140807 VsMobile.app */,
-				84B1C01519934B0600E23A84 /* 20140807 VsMobileTests.xctest */,
+				84B1BFFA19934B0500E23A84 /* 20140807_VsMobile.app */,
+				84B1C01519934B0600E23A84 /* 20140807_VsMobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,9 +301,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84B1BFF919934B0500E23A84 /* 20140807 VsMobile */ = {
+		84B1BFF919934B0500E23A84 /* 20140807_VsMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84B1C02619934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807 VsMobile" */;
+			buildConfigurationList = 84B1C02619934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807_VsMobile" */;
 			buildPhases = (
 				84B1BFF619934B0500E23A84 /* Sources */,
 				84B1BFF719934B0500E23A84 /* Frameworks */,
@@ -313,14 +313,14 @@
 			);
 			dependencies = (
 			);
-			name = "20140807 VsMobile";
+			name = 20140807_VsMobile;
 			productName = "20140807 VsMobile";
-			productReference = 84B1BFFA19934B0500E23A84 /* 20140807 VsMobile.app */;
+			productReference = 84B1BFFA19934B0500E23A84 /* 20140807_VsMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84B1C01419934B0600E23A84 /* 20140807 VsMobileTests */ = {
+		84B1C01419934B0600E23A84 /* 20140807_VsMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84B1C02919934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807 VsMobileTests" */;
+			buildConfigurationList = 84B1C02919934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807_VsMobileTests" */;
 			buildPhases = (
 				84B1C01119934B0600E23A84 /* Sources */,
 				84B1C01219934B0600E23A84 /* Frameworks */,
@@ -331,9 +331,9 @@
 			dependencies = (
 				84B1C01B19934B0600E23A84 /* PBXTargetDependency */,
 			);
-			name = "20140807 VsMobileTests";
+			name = 20140807_VsMobileTests;
 			productName = "20140807 VsMobileTests";
-			productReference = 84B1C01519934B0600E23A84 /* 20140807 VsMobileTests.xctest */;
+			productReference = 84B1C01519934B0600E23A84 /* 20140807_VsMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84B1BFF519934B0500E23A84 /* Build configuration list for PBXProject "20140807 VsMobile" */;
+			buildConfigurationList = 84B1BFF519934B0500E23A84 /* Build configuration list for PBXProject "20140807_VsMobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -363,8 +363,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84B1BFF919934B0500E23A84 /* 20140807 VsMobile */,
-				84B1C01419934B0600E23A84 /* 20140807 VsMobileTests */,
+				84B1BFF919934B0500E23A84 /* 20140807_VsMobile */,
+				84B1C01419934B0600E23A84 /* 20140807_VsMobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -434,7 +434,7 @@
 /* Begin PBXTargetDependency section */
 		84B1C01B19934B0600E23A84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84B1BFF919934B0500E23A84 /* 20140807 VsMobile */;
+			target = 84B1BFF919934B0500E23A84 /* 20140807_VsMobile */;
 			targetProxy = 84B1C01A19934B0600E23A84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,7 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
 				INFOPLIST_FILE = "20140807 VsMobile/20140807 VsMobile-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20140807_VsMobile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -570,7 +570,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
 				INFOPLIST_FILE = "20140807 VsMobile/20140807 VsMobile-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20140807_VsMobile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -591,7 +591,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "20140807 VsMobileTests/20140807 VsMobileTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20140807_VsMobileTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -609,7 +609,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
 				INFOPLIST_FILE = "20140807 VsMobileTests/20140807 VsMobileTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20140807_VsMobileTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -618,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84B1BFF519934B0500E23A84 /* Build configuration list for PBXProject "20140807 VsMobile" */ = {
+		84B1BFF519934B0500E23A84 /* Build configuration list for PBXProject "20140807_VsMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84B1C02419934B0600E23A84 /* Debug */,
@@ -627,21 +627,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84B1C02619934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807 VsMobile" */ = {
+		84B1C02619934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807_VsMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84B1C02719934B0600E23A84 /* Debug */,
 				84B1C02819934B0600E23A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		84B1C02919934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807 VsMobileTests" */ = {
+		84B1C02919934B0600E23A84 /* Build configuration list for PBXNativeTarget "20140807_VsMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84B1C02A19934B0600E23A84 /* Debug */,
 				84B1C02B19934B0600E23A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

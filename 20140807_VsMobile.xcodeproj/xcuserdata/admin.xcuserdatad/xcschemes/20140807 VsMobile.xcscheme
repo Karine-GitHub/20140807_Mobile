@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84B1BFF919934B0500E23A84"
-               BuildableName = "20140807 VsMobile.app"
-               BlueprintName = "20140807 VsMobile"
-               ReferencedContainer = "container:20140807 VsMobile.xcodeproj">
+               BuildableName = "20140807_VsMobile.app"
+               BlueprintName = "20140807_VsMobile"
+               ReferencedContainer = "container:20140807_VsMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84B1C01419934B0600E23A84"
-               BuildableName = "20140807 VsMobileTests.xctest"
-               BlueprintName = "20140807 VsMobileTests"
-               ReferencedContainer = "container:20140807 VsMobile.xcodeproj">
+               BuildableName = "20140807_VsMobileTests.xctest"
+               BlueprintName = "20140807_VsMobileTests"
+               ReferencedContainer = "container:20140807_VsMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B1BFF919934B0500E23A84"
-            BuildableName = "20140807 VsMobile.app"
-            BlueprintName = "20140807 VsMobile"
-            ReferencedContainer = "container:20140807 VsMobile.xcodeproj">
+            BuildableName = "20140807_VsMobile.app"
+            BlueprintName = "20140807_VsMobile"
+            ReferencedContainer = "container:20140807_VsMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B1BFF919934B0500E23A84"
-            BuildableName = "20140807 VsMobile.app"
-            BlueprintName = "20140807 VsMobile"
-            ReferencedContainer = "container:20140807 VsMobile.xcodeproj">
+            BuildableName = "20140807_VsMobile.app"
+            BlueprintName = "20140807_VsMobile"
+            ReferencedContainer = "container:20140807_VsMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B1BFF919934B0500E23A84"
-            BuildableName = "20140807 VsMobile.app"
-            BlueprintName = "20140807 VsMobile"
-            ReferencedContainer = "container:20140807 VsMobile.xcodeproj">
+            BuildableName = "20140807_VsMobile.app"
+            BlueprintName = "20140807_VsMobile"
+            ReferencedContainer = "container:20140807_VsMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

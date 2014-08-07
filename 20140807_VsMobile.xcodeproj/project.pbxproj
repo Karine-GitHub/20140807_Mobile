@@ -61,10 +61,10 @@
 		84B1BFFD19934B0500E23A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84B1BFFF19934B0500E23A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		84B1C00119934B0500E23A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		84B1C00519934B0500E23A84 /* 20140807 VsMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "20140807 VsMobile-Info.plist"; sourceTree = "<group>"; };
+		84B1C00519934B0500E23A84 /* 20140807_VsMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "20140807_VsMobile-Info.plist"; sourceTree = "<group>"; };
 		84B1C00719934B0500E23A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84B1C00919934B0500E23A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B1C00B19934B0500E23A84 /* 20140807 VsMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20140807 VsMobile-Prefix.pch"; sourceTree = "<group>"; };
+		84B1C00B19934B0500E23A84 /* 20140807_VsMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20140807_VsMobile-Prefix.pch"; sourceTree = "<group>"; };
 		84B1C00F19934B0500E23A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84B1C01519934B0600E23A84 /* 20140807_VsMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20140807_VsMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B1C01619934B0600E23A84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -204,10 +204,10 @@
 		84B1C00419934B0500E23A84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84B1C00519934B0500E23A84 /* 20140807 VsMobile-Info.plist */,
+				84B1C00519934B0500E23A84 /* 20140807_VsMobile-Info.plist */,
 				84B1C00619934B0500E23A84 /* InfoPlist.strings */,
 				84B1C00919934B0500E23A84 /* main.m */,
-				84B1C00B19934B0500E23A84 /* 20140807 VsMobile-Prefix.pch */,
+				84B1C00B19934B0500E23A84 /* 20140807_VsMobile-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -344,11 +344,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
-				TargetAttributes = {
-					84B1C01419934B0600E23A84 = {
-						TestTargetID = 84B1BFF919934B0500E23A84;
-					};
-				};
 			};
 			buildConfigurationList = 84B1BFF519934B0500E23A84 /* Build configuration list for PBXProject "20140807_VsMobile" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -555,8 +550,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
-				INFOPLIST_FILE = "20140807 VsMobile/20140807 VsMobile-Info.plist";
+				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807_VsMobile-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/20140807 VsMobile/20140807_VsMobile-Info.plist";
 				PRODUCT_NAME = 20140807_VsMobile;
 				WRAPPER_EXTENSION = app;
 			};
@@ -568,8 +563,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
-				INFOPLIST_FILE = "20140807 VsMobile/20140807 VsMobile-Info.plist";
+				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807_VsMobile-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/20140807 VsMobile/20140807_VsMobile-Info.plist";
 				PRODUCT_NAME = 20140807_VsMobile;
 				WRAPPER_EXTENSION = app;
 			};
@@ -578,7 +573,6 @@
 		84B1C02A19934B0600E23A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/20140807 VsMobile.app/20140807 VsMobile";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -592,7 +586,6 @@
 				);
 				INFOPLIST_FILE = "20140807 VsMobileTests/20140807 VsMobileTests-Info.plist";
 				PRODUCT_NAME = 20140807_VsMobileTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -600,7 +593,6 @@
 		84B1C02B19934B0600E23A84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/20140807 VsMobile.app/20140807 VsMobile";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -610,7 +602,6 @@
 				GCC_PREFIX_HEADER = "20140807 VsMobile/20140807 VsMobile-Prefix.pch";
 				INFOPLIST_FILE = "20140807 VsMobileTests/20140807 VsMobileTests-Info.plist";
 				PRODUCT_NAME = 20140807_VsMobileTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

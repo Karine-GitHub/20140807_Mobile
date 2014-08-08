@@ -41,7 +41,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    self.content.delegate = self;
     // Get Application's Dependencies
     @try {
         NSError *error = [[NSError alloc] init];
@@ -65,6 +65,7 @@
         UIAlertView *alertNoConnection = [[UIAlertView alloc] initWithTitle:@"Application fails" message:_errorMsg delegate:self cancelButtonTitle:@"Quit" otherButtonTitles:nil];
         [alertNoConnection show];
     }
+    [self.content reload];
 }
 
 - (void)didReceiveMemoryWarning
@@ -164,8 +165,6 @@
             }
         }
     }
-
-    NSLog(@"My final string = %@", files);
     return files;
 }
 
@@ -201,6 +200,20 @@
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    NSLog(@"Relative path = %@   relative string = %@", [request.URL relativePath], [request.URL relativeString]);
+    NSLog(@"Absolute string = %@   Absolute url = %@", [request.URL absoluteString], [request.URL absoluteURL]);
+    NSLog(@"query = %@", [request.URL query]);
+    NSLog(@"fragment = %@", [request.URL fragment]);
+    NSString *path = [APPLICATION_SUPPORT_PATH stringByReplacingOccurrencesOfString:@" " withString:@"\%20"];
+    NSLog(@"Path = %@", path);
+    if ([[request.URL fragment] isEqualToString:[NSString stringWithFormat:@"%@htmlContent.html", path]]) {
+        [self configureView];
+    }
+    return YES;
+}
+
 - (void)webView:(UIWebView *)webview didFailLoadWithError:(NSError *)error
 {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
@@ -223,6 +236,15 @@
                       "</html>"
                       , [self addFiles], htmlContent];
     
+    BOOL success = false;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSError *error = [[NSError alloc] init];
+    NSString *path = [NSString stringWithFormat:@"%@htmlContent.html", APPLICATION_SUPPORT_PATH];
+    NSData *content = [html dataUsingEncoding:NSUTF8StringEncoding];
+    success = [fileManager createFileAtPath:path contents:content attributes:nil];
+        if (!success) {
+            NSLog(@"An error occured during the Saving of the html file : %@", error);
+        }
     return html;
 }
 
